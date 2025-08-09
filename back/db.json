@@ -8,6 +8,6 @@
     { "id": 1, "nome": "Alice", "tipo": "Bob" , "data-validade": "Bob"}
   ],
   "movimento": [
-    {"id: 1}
+    {"id": 1, "tipo": "Bob", "quantidade": 10, "date": "10/10/2005"}
   ]
 }
