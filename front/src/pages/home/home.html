@@ -14,13 +14,23 @@
     <div class="card mb-4">
       <div class="card-body">
         <form id="form-produto" class="row g-3">
-          <div class="col-md-6">
+          <div class="col-md-4">
             <label for="nome" class="form-label">Nome do Produto</label>
             <input type="text" class="form-control" id="nome" placeholder="Ex: Teclado" required />
           </div>
           <div class="col-md-4">
             <label for="preco" class="form-label">Preço</label>
             <input type="number" step="0.01" class="form-control" id="preco" placeholder="Ex: 99.90" required />
+          </div>
+
+            <div class="col-md-4">
+             <label for="preco" class="form-label">Tipo</label>
+             <input type="text"  class="form-control" id="tipo" placeholder="neutro" required />
+          </div>
+
+            <div class="col-md-4">
+             <label for="preco" class="form-label">Data de validação</label>
+             <input type="text"  class="form-control" id="tipo" placeholder="neutro" required />
           </div>
           <div class="col-md-2 d-flex align-items-end">
             <button type="submit" class="btn btn-primary w-100">Cadastrar</button>
